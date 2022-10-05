@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from www.marketo.com/software/marketing-data-environment/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Aug 2022 11:16:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta name="google-site-verification" content="1dXMiRxYzFzcl-ZELwr0DZQW0buygrb6TuL_db5M9ZA" />
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+               navigator.serviceWorker.register('themes/index.html');
+            });
+        } else {
+            console.log('nope', navigator);
+        }
+    </script>
+    
+    
+    
+        <script type="text/javascript">
+            const cookies = document.cookie.split(';');
+            const fedsCookies = ['OptanonChoice','feds_privacy_consent'];
+            const optanonCookies = ['OptanonConsent', 'OptanonAlertBoxClosed'];
+            const optanon = 'OptanonConsent';
+            const oldGroup = 'groups=1';
+
+            // Check if the Optanon cookie contains the old Marketo categories
+            const isOld = cookies.some(function(cookie) {
+                return (cookie.indexOf(optanon) > -1 && cookie.indexOf(oldGroup) > -1)
+            });
+
+            if (isOld) {
+                // Delete CMP cookies by setting to past date
+                fedsCookies.forEach(function(fedsCookie) {
+                    document.cookie = fedsCookie + "=; expires=Thu, 01 Jan 1970 00:00:00 GTM; path=/; domain=.marketo.com";
+                });
+                optanonCookies.forEach(function(optanonCookie) {
+                    document.cookie = optanonCookie + "=; expires=Thu, 01 Jan 1970 00:00:00 GTM; path=/; domain=.marketo.com";
+                    document.cookie = optanonCookie + "=; expires=Thu, 01 Jan 1970 00:00:00 GTM; path=/; domain=" + document.location.hostname;
+                });
+            }
+        </script>
+    
+    
+    
+        <script src="../../themes/the-interwebs/dist/javascript/gnav-customization.js"></script>
+    
+    <script type="text/javascript">
+        window.fedsConfig = {
+            locale: 'en',
+            disableTarget: true,
+            content: {
+                experience: 'dx-mega-menu/dx-marketo-menu'
+            },
+            privacy: {
+                otDomainId: '3f89dae4-167c-4450-b2ab-6f5ce7b57c0c',
+                footerLinkSelector: '[data-feds-action="open-adchoices-modal"]'
+            }
+        };
+    </script>
+    
+        <script nomodule src="../../../www.adobe.com/etc.clientlibs/globalnav/clientlibs/base/polyfills.js"></script>
+        <script src="../../../www.adobe.com/etc.clientlibs/globalnav/clientlibs/base/feds.js" id="feds-script"></script>
+    
+    <script>var GateData = GateData ? GateData : {}</script>
+    
+    
+    
+    <!-- Adobe Analytics -->
+    <script>
+        window.marketingtech = {
+            adobe: {
+                launch: {
+                    property: 'global',
+                    environment: 'production'
+                },
+                analytics: {
+                    additionalAccounts: 'adbadbadobemarketoprod,adbadobedxprod'
+                },
+                target: true,
+                audienceManager: false
+            }
+        };
+    </script>
+    <script src="../../../www.adobe.com/marketingtech/main.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        let intervalCount = 0;
+        let hasLoadedDigitalData = setInterval(function(){
+            if (window.digitalData) {
+                // Set data layer info
+                digitalData._set(
+                        'digitalData.page.pageInfo.siteSection',
+                        'Marketo-Capabilities'
+                );
+                digitalData._set(
+                        'digitalData.page.pageInfo.template',
+                        'CapabilitiesAndSolutionsPage'
+                );
+                digitalData._set(
+                        'digitalData.page.pageInfo.language',
+                        'en-US'
+                );
+                digitalData._set(
+                        'digitalData.page.pageInfo.geoRegion',
+                        'us'
+                );
+                digitalData._set(
+                        'digitalData.page.pageInfo.issueDate',
+                        '2020-04-03 18:21:38'
+                );
+                digitalData._set(
+                        'digitalData.page.pageInfo.breadCrumbs',
+                        [
+                            'Capabilities','Marketing Data Environment',
+                        ]
+                );
+                clearInterval(hasLoadedDigitalData);
+            } else if (intervalCount > 20) {
+                clearInterval(hasLoadedDigitalData);
+                console.log('digitalData does not exist');
+            } else {
+                intervalCount++;
+            }
+        }, 500);
+    </script>
+    <!-- End Adobe Analytics -->
+    <!-- Schema starts -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://www.marketo.com",
+            "name": "Marketo",
+            "legalName": "Marketo, An Adobe Company",
+            "alternateName": "Marketo.com",
+            "sameAs":   [
+                        "https://www.facebook.com/Adobe",
+                        "https://twitter.com/Adobe",
+                        "https://www.linkedin.com/company/adobe",
+                        "https://www.instagram.com/adobe/"
+                        ],
+            "contactPoint": [
+                            {
+                            "@type": "ContactPoint",
+                            "telephone": "+1-877-260-6586",
+                            "contactType": "customer service",
+                            "contactOption": "TollFree",
+                            "areaServed": "us",
+                            "availableLanguage": "en-US"
+                            }
+                            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name":"Marketing Data Environment",
+        "description": "Get to know your customer relationships on a deeper level",
+        "publisher": {
+                        "@type": "Organization",
+                        "name": "Marketo, An Adobe Company"
+                    },
+        "license": "https://www.marketo.com/company/legal/"
+        }
+    </script>
+<!-- Schema ends -->
+    <base ><!--[if lte IE 6]></base><![endif]-->
+
+    <title>Marketing Data Environment</title>
+    <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgcOVVZRABADUlVXAAYFUVM=",licenseKey:"2177bc5f79",applicationID:"364577277"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(27),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(28),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(10),t(9),"addEventListener"in window&&t(6),c.xhrWrappable&&t(11),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function i(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+l])try{window.performance[h](m,i,!1)}catch(t){}else try{window.performance[h]("webkit"+m,i,!1)}catch(t){}}function o(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(10),f=t(9),u=t(5),d=t(19),l="learResourceTimings",p="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",S=t("loader");if(!S.disabled){S.features.stn=!0,t(8),"addEventListener"in window&&t(6);var O=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof O&&(this.bstStart=S.now())}),a.on(b,function(t,e){var n=t[0];n instanceof O&&s("bst",[n,e,this.bstStart,S.now()])}),c.on(x,function(t,e,n){this.bstStart=S.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),this.bstType])}),f.on(x,function(){this.bstStart=S.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=S.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):p in window.performance&&(window.performance["c"+l]?window.performance[p](m,i,d(!1)):window.performance[p]("webkit"+m,i,d(!1))),document[p]("scroll",o,d(!1)),document[p]("keypress",o,d(!1)),document[p]("click",o,d(!1))}}},{}],5:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(28),a=t(27);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],10:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],11:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function o(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,S.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=t(19),p=NREUM.o,h=p.XHR,m=p.MO,v=p.PR,w=p.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,l(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,S=document.createTextNode(R);new m(a).observe(S,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],12:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(w.traceContextParentHeader=i(h,m),w.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(24),h=t(14);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],13:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function i(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(14),f=t(12).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(20),m=t(18),v=t(15),w=t(19),g=t(21).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(11),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;if("string"==typeof o?n=o:"object"==typeof o&&o instanceof y?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n),"data"!==this.params.protocol){var s=(""+(o&&o instanceof y&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],14:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("../../index.html")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],15:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(18);e.exports=r},{}],16:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),o(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(27),s=t(28),c=t("ee").get("tracer"),f=t("loader"),u=t(21),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var l=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(l,function(t,e){d[e]=i(p,e,!0,"api")}),d.addPageAction=i(p,"addPageAction",!0),d.setCurrentRouteName=i(p,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),o("err",[t,f.now(),!1,e])}},{}],17:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],20:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],21:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[s,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:i}},{}],22:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(29);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],23:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var i=[r],o=a({});o&&i.push(o),p("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,l,p=t("handle"),h=t("loader"),m=t(26),v=t(19),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}l=new PerformanceObserver(o);try{l.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],24:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(t)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],25:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],26:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(19);e.exports=r;var o,a,s;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],27:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],28:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],29:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[y[n]];return l&&l.push([x,n,r,s]),s}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return l[t]=l[t]||i(n)}function w(t,e){p.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(27),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!O++){var t=S.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+S.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https:///")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+S.offset],null,"api")}var a=t(22),s=t("handle"),c=t(27),f=t("ee"),u=t(25),d=t(17),l=t(19),p=d.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",w="attachEvent",g=h.XMLHttpRequest,y=g&&g.prototype,x=!1;NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:g,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},R=g&&y&&y[v]&&!/CriOS/.test(navigator.userAgent),S=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:x};if(!x){t(16),t(23),m[v]?(m[v]("DOMContentLoaded",o,l(!1)),h[v]("load",r,l(!1))):(m[w]("onreadystatechange",i),h[w]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var O=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(28),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,13,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#4C50CC">
+
+    <link rel="stylesheet" href="../../../use.typekit.net/goi4kte.css">
+    
+    
+        
+    
+
+    
+    
+    
+
+    
+
+
+
+
+
+<link rel="shortcut icon" href="../../themes/the-interwebs/dist/images/favicon43a0.ico?v3"/>
+
+<link rel="canonical" href="index.html"/>
+
+    
+        <link rel="alternate" hreflang="en-US" href="index.html"/>
+    
+        <link rel="alternate" hreflang="de-DE" href="https://de.marketo.com/faehigkeiten/marketing-data-environment/"/>
+    
+        <link rel="alternate" hreflang="fr-FR" href="https://fr.marketo.com/fonctionnalites/environnement-de-donnees-marketing/"/>
+    
+        <link rel="alternate" hreflang="es-ES" href="https://es.marketo.com/funciones/entorno-de-datos-de-marketing/"/>
+    
+        <link rel="alternate" hreflang="en-AU" href="https://au.marketo.com/software/marketing-data-environment/"/>
+    
+        <link rel="alternate" hreflang="en-GB" href="https://uk.marketo.com/marketing-data-environment/"/>
+    
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Marketo.com">
+<meta name="twitter:creator" content="Marketo.com">
+<meta name="twitter:title" content="Marketing Data Environment">
+<meta name="twitter:description" content="Get to know your customer relationships on a deeper level">
+<meta name="twitter:image" content="/assets/SiteConfig/Marketo-Adobe-Full-Color-Twitter-Card.png"/>
+
+<meta property="og:url" content="https://www.marketo.com/software/marketing-data-environment/"/>
+<meta property="og:title" content="Marketing Data Environment"/>
+<meta property="og:site_name" content="Marketo.com"/>
+<meta property="og:locale" content="en_US"/>
+
+<meta property="og:image" content="/assets/SiteConfig/Marketo-Adobe-Full-Color-Twitter-Card.png"/>
+<meta property="og:type" content="article"/>
+
+    <meta property="og:description" content="Get to know your customer relationships on a deeper level"/>
+
+<meta property="article:published_time" content="2020-04-03 18:21:38"/>
+
+<meta property="fb:app_id" content="378262062197954"/>
+<meta property="fb:admins" content="100001935713058,100000221649444"/>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/layers/Marquee56bd.css?m=1655934665" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/layers/ValueAddOns56bd.css?m=1655934665" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/elements/Dividerddc3.css?m=1655934664" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/layers/BenefitsLayerddc3.css?m=1655934664" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/layers/ROILayer56bd.css?m=1655934665" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/layers/Collection56bd.css?m=1655934665" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/typographyddc3.css?m=1655934664" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/base_LoadGNAV18ee.css?m=1655934663" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/elements/Headerddc3.css?m=1655934664" />
+<link rel="stylesheet" type="text/css" href="../../themes/the-interwebs/dist/css/nav/FooterCTA56bd.css?m=1655934665" />
+</head>
+<body class="capabilitiesandsolutionspage CapabilitiesAndSolutionsPage Action-index lead-data-unknown locale-us" dir="ltr">
+    
+
+    
+    <header>
+        <div id="feds-header"></div>
+        
+    </header>
+
+    
+    
+    
+    
+        
+
+
+
+    
+
+<main id="layout-wrapper">
+    <div class="layers">
+    <div class='js-scroll-to-section' id='sectionID-1282' data-scroll-id='sectionID-1282' data-title='Marketing Data Environment'>
+
+<article class="marquee-wrapper" style="background-color: #4C50CC;  background-image: url(../../assets/MarqueeLayer/22018-marquee-BG-1.jpg)">
+    <div class="marquee-container">
+        <section class="marquee-text">
+            <h1>Marketing Data Environment</h1>
+            <h2>Know the latest state of each customer relationship deeper than anyone.</h2>
+            
+            <div class="cta-container ">
+                
+                    <a href="../../product-tour/index.html" class="cta light">Watch the product tour</a>
+                
+                
+            </div>
+        </section>
+        
+            <div class="marquee-flex-image">
+                <img src="../../assets/MarqueeLayer/22018-Flex-Img-marquee-marketing-data-environment-1.png" alt="" />
+            </div>
+        
+    </div>
+</article>
+ 
+
+
+
+
+
+
+
+</div><div class='js-scroll-to-section' id='sectionID-1232' data-scroll-id='sectionID-1232' data-title='Benefits'>
+
+<section class="benefits-wrapper" style="background-color:#FFFFFF;">
+    <div class="benefits-container container-adobe">
+        <span class="label" style="color:#4C50CC;">Benefits</span>
+        <div class="inner-container">
+            <div class="benefits-title">
+                <h3>Gain quick insights and power experiences using AI and consolidated data</h3>
+            </div>
+            <div class="benefits-content">
+                
+                    
+                        <div class="benefits-row">
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S DataMapping 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><path d="M16,9.25a1.74822,1.74822,0,0,0-1.47473.80841L11.98133,9.3316A3.03625,3.03625,0,0,0,12,9a2.99675,2.99675,0,0,0-1.37512-2.5213l1.17443-2.7405A1.77108,1.77108,0,0,0,12,3.75a1.75033,1.75033,0,1,0-1.12036-.40582l-1.17432,2.74a2.99669,2.99669,0,0,0-2.443.47113L3.53961,2.83258a1.74913,1.74913,0,1,0-.707.707L6.5553,7.26233a2.99771,2.99771,0,0,0-.13636,3.26654L3.45685,13.035a1.7488,1.7488,0,1,0,.6465.76354l2.962-2.50646a2.99928,2.99928,0,0,0,2.9339.53674l1.49921,2.69855a1.74969,1.74969,0,1,0,.8745-.48621l-1.49945-2.699a3.00971,3.00971,0,0,0,.83374-1.0485l2.54322.72668A1.74982,1.74982,0,1,0,16,9.25ZM12,1a1,1,0,1,1-1,1A1,1,0,0,1,12,1ZM2,3A1,1,0,1,1,3,2,1,1,0,0,1,2,3Zm.5,12.5a1,1,0,1,1,1-1A1,1,0,0,1,2.5,15.5Zm10.25-.75a1,1,0,1,1-1,1A1,1,0,0,1,12.75,14.75ZM16,12a1,1,0,1,1,1-1A1,1,0,0,1,16,12Z" />
+</svg>
+</i>
+                            <h4>Enjoy a centralized data environment that you control</h4>
+                            <p>Centralize marketing, sales, third-party, and account data so you always know the latest state of each customer, without needing IT.</p>
+                        </div>
+                    
+                
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S Branch2 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><path d="M14,11a2.981,2.981,0,0,0-2.304,1.1L6.92,9.6665a2.80907,2.80907,0,0,0,0-1.332L11.696,5.9a2.954,2.954,0,1,0-.6375-1.3205l-4.811,2.45a3.00734,3.00734,0,0,0-.454-.423,3.04447,3.04447,0,0,0-.4985-.303c-.0185-.009-.035-.0205-.053-.029a2.98157,2.98157,0,0,0-.497-.1715c-.0365-.0095-.0705-.025-.107-.0335a3,3,0,1,0,0,5.8575c.037-.008.0705-.024.107-.0335a2.98157,2.98157,0,0,0,.497-.1715c.0185-.0085.035-.02.053-.029a2.99287,2.99287,0,0,0,.4945-.3,3.05559,3.05559,0,0,0,.458-.426l4.811,2.45A3,3,0,1,0,14,11Zm0-8.5A1.5,1.5,0,1,1,12.5,4,1.5,1.5,0,0,1,14,2.5Zm0,13A1.5,1.5,0,1,1,15.5,14,1.5,1.5,0,0,1,14,15.5Z" />
+</svg>
+</i>
+                            <h4>Segment highly refined lead and account audiences</h4>
+                            <p>Create hyper-targeted and dynamic audience segments that update in real-time to support both lead- and account-based strategies.</p>
+                        </div>
+                    
+                        </div>
+                    
+                
+                    
+                        <div class="benefits-row">
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S PersonalizationField 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><path d="M15.5,1H2.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,15.5,1ZM6,14.75a.25.25,0,0,1-.25.25H3.25A.25.25,0,0,1,3,14.75v-.5A.25.25,0,0,1,3.25,14h2.5a.25.25,0,0,1,.25.25Zm9,0a.25.25,0,0,1-.25.25H8.25A.25.25,0,0,1,8,14.75v-.5A.25.25,0,0,1,8.25,14h6.5a.25.25,0,0,1,.25.25ZM15,11H13.765c-.473-.696-1.343-1.0805-2.9145-1.24a.509.509,0,0,1-.441-.5115V8.51a.51154.51154,0,0,1,.13-.3295,3.9,3.9,0,0,0,.8865-2.434c0-1.842-.9765-2.871-2.4525-2.871s-2.481,1.0695-2.481,2.871a3.94244,3.94244,0,0,0,.9295,2.434.50947.50947,0,0,1,.13.3295v.735a.5075.5075,0,0,1-.4425.512c-1.621.141-2.49.5335-2.95,1.243H3V2H15Z" />
+</svg>
+</i>
+                            <h4>Enrich customer profiles with intent and behavior data</h4>
+                            <p>Prioritize your leads and accounts quicker based on who they are, what they’re interested in, and how they engage with you.</p>
+                        </div>
+                    
+                
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S PersonalizationField 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><path d="M15.5,1H2.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,15.5,1ZM6,14.75a.25.25,0,0,1-.25.25H3.25A.25.25,0,0,1,3,14.75v-.5A.25.25,0,0,1,3.25,14h2.5a.25.25,0,0,1,.25.25Zm9,0a.25.25,0,0,1-.25.25H8.25A.25.25,0,0,1,8,14.75v-.5A.25.25,0,0,1,8.25,14h6.5a.25.25,0,0,1,.25.25ZM15,11H13.765c-.473-.696-1.343-1.0805-2.9145-1.24a.509.509,0,0,1-.441-.5115V8.51a.51154.51154,0,0,1,.13-.3295,3.9,3.9,0,0,0,.8865-2.434c0-1.842-.9765-2.871-2.4525-2.871s-2.481,1.0695-2.481,2.871a3.94244,3.94244,0,0,0,.9295,2.434.50947.50947,0,0,1,.13.3295v.735a.5075.5075,0,0,1-.4425.512c-1.621.141-2.49.5335-2.95,1.243H3V2H15Z" />
+</svg>
+</i>
+                            <h4>Reveal your target accounts for ABM in seconds using AI</h4>
+                            <p>Save weeks of time by letting AI build ideal customer profiles and predictive target account lists for your ABM strategy.</p>
+                        </div>
+                    
+                        </div>
+                    
+                
+                    
+                        <div class="benefits-row">
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S Data 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><ellipse cx="9" cy="3.5" rx="8" ry="2.5" />
+  <path d="M9,12.1375c-2.468,0-7.106-.5845-8-2V14.5C1,15.8805,4.5815,17,9,17s8-1.1195,8-2.5V10.135C15.7765,11.6825,11.468,12.1375,9,12.1375Z" />
+  <path d="M9,7.1375c-2.468,0-7.106-.5845-8-2.0025V8.5C1,9.8805,4.5815,11,9,11s8-1.1195,8-2.5V5.135C15.7765,6.6825,11.468,7.1375,9,7.1375Z" />
+</svg>
+</i>
+                            <h4>Personalize your data structure to fit your needs</h4>
+                            <p>Build custom data objects and fields to customize how you collect data, segment audiences, and personalize experiences across channels</p>
+                        </div>
+                    
+                
+                    
+                        <div class="benefit">
+                            <i  style='fill:#4C50CC'><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+<title>S AdDisplay 18 N</title>
+  <rect id="Canvas" opacity="0" width="18" height="18" /><rect height="7" width="4" x="11" y="4" />
+  <path d="M17.5,1H.5a.5.5,0,0,0-.5.5v12a.5.5,0,0,0,.5.5H7v2.5a.5.5,0,0,1-.5.5h-1a.4895.4895,0,0,0-.5.47877q-.00022.01062,0,.02123V18h8v-.5a.5.5,0,0,0-.5-.5h-1a.5.5,0,0,1-.5-.5V14h6.5a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,17.5,1ZM16,12H2V3H16Z" />
+</svg>
+</i>
+                            <h4>Turn insights into action across marketing and paid media</h4>
+                            <p>Conveniently activate and target your audiences from a centralized place across marketing, paid media, and Adobe Exchange™ programs.</p>
+                        </div>
+                    
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+
+
+
+
+</div><div class='js-scroll-to-section' id='sectionID-1228' data-scroll-id='sectionID-1228' data-title='ROI'>
+
+<section class="roi-wrapper" style="background-color:#323232;">
+    <div class="roi-container container-adobe">
+        <div class="stat">
+            <h3 style="color:#FFFFFF;">Faster Insights</h3>
+            <p style="color:#FFFFFF;">Using AI and predictive modeling<br />
+</p>
+            
+        </div>
+        <div class="separator"></div>
+        <div class="stat">
+            <h3 style="color:#FFFFFF;">Increased Campaign Efficiency</h3>
+            <p style="color:#FFFFFF;">From activating your audiences from a central location</p>
+            
+        </div>
+        
+            <div class="separator"></div>
+            <div class="stat">
+                <h3 style="color:#FFFFFF;">More Accurate Optimization</h3>
+                <p style="color:#FFFFFF;">From AI-powered analysis &amp; recommendations <br />
+</p>
+                
+            </div>
+        
+    </div>
+</section> 
+
+
+
+
+
+
+
+</div><div class='js-scroll-to-section' id='sectionID-1310' data-scroll-id='sectionID-1310' data-title='Marketing Data Environment Features'><script>
+    if (!layerData) {
+        var layerData = {};
+    }
+
+    if (!layerData.CollectionData) {
+        layerData.CollectionData = {};
+    }
+
+    // Overwrites each instance of layerData.CollectionData on render.
+    layerData.CollectionData = {
+        tabs: [
+            
+                {
+                    id: '0',
+                    title: 'Database'
+                },
+            
+                {
+                    id: '1',
+                    title: ' CRM'
+                },
+            
+                {
+                    id: '2',
+                    title: ' Segmentation'
+                },
+            
+                {
+                    id: '3',
+                    title: ' Enrichment \x26 Activation'
+                },
+            
+                {
+                    id: '4',
+                    title: ' Targeting'
+                },
+            
+                {
+                    id: '5',
+                    title: ' Predictive Audiences'
+                },
+            
+                {
+                    id: '6',
+                    title: ' Target Accounts'
+                },
+            
+                {
+                    id: '7',
+                    title: ' Profiling'
+                },
+            
+                {
+                    id: '8',
+                    title: ' Security'
+                },
+            
+        ],
+        tabpanels: [
+            
+                {
+                    id: '0',
+                    FeaturedTab: 'Database',
+                    items: [
+                        
+                            {
+                                title: 'Centralize all marketing and sales data into a single environment',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eConsolidate all your 1st  and 3rd party marketing and sales data inside a centralized data environment that you control, including CRM, fit, intent, offline, and real-time online activity data.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eCombined Fit, Intent \x26amp; Engagement Data\x3c/li\x3e\n\x3cli\x3eMarketing \x26amp; Sales CRM Activity Data\x3c/li\x3e\n\x3cli\x3eOffline \x26amp; 3rd Party Data Ingest\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Manage your lead and account-based data from the same tool',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eAvoid separate databases, disconnected customer experiences and reporting nightmares for your lead- and account-based strategies. Centralize and manage your lead and account data for ABM from one place.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAccount-level Data Management\x3c/li\x3e\n\x3cli\x3eUnified Account Profiles\x3c/li\x3e\n\x3cli\x3eTarget Account Management\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/solutions/master-account-based-marketing/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Customize your marketing data to meet your personalization needs',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eCustomize data fields and their affiliation across all your lead \x26amp; account records, so that you can filter audiences, automate engagement, personalize messaging and sync with your CRM based on unique data needs.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eCustom Data Fields\x3c/li\x3e\n\x3cli\x3eCustom Objects\x3c/li\x3e\n\x3cli\x3eCustom Automation Workflow Activity Data\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '1',
+                    FeaturedTab: ' CRM',
+                    items: [
+                        
+                            {
+                                title: 'Take advantage of best-in-class native CRM integrations',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eUse real-time, native CRM integrations to keep Sales and Marketing teams continuously in sync, allowing both teams to engage customers, cultivate leads and accounts, and convert hot opportunities into revenue more effectively.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eSalesforce Integration\x3c/li\x3e\n\x3cli\x3eMicrosoft Dynamics Integration\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/plug-play-integrations',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Use additional leading CRM integrations to partner with Sales',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eIntegrate with other industry-leading CRM tools using real-time, bi-directional data transfer, allowing Marketing and Sales to take a coordinated approach to lead and account engagement, and revenue generation.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eSAP C4C Integration\x3c/li\x3e\n\x3cli\x3eNetsuite Integration\x3c/li\x3e\n\x3cli\x3eSugarCRM Integration\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '2',
+                    FeaturedTab: ' Segmentation',
+                    items: [
+                        
+                            {
+                                title: 'Create targeted audience segments based on attributes and behavior',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eAdvanced profile, behavior and custom data filters can be layered on top of each other, enabling you to slice and dice your lead and account data, and pinpoint the most granular audience possible.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eLead \x26amp; Account-level Filters\x3c/li\x3e\n\x3cli\x3eActivity Filters\x3c/li\x3e\n\x3cli\x3eCustom Data Object Filters\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Keep your audiences up-to date in real-time as engagement happens',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eBuild static lists or setup automation workflows that pair activity triggers with your audiences and CRM sync so they dynamically update in real-time based on sales, marketing and customer engagement.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eDynamic \x26amp; Static Audiences\x3c/li\x3e\n\x3cli\x3eDynamic CRM Account List Sync\x3c/li\x3e\n\x3cli\x3eAudience Import / Export\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Automatically match leads to accounts to view account penetration',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eKeep your data environment organized, and view your current target account penetration for ABM by automatically associating leads to accounts, exposing how much known contacts exist for each buying group.\x3c/span\x3e\x3c/p\x3e\n\x3cul\x3e\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eAutomatic Lead-to-Account Matching\x3c/span\x3e\x3c/li\x3e\n\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3ePotential People\x3c/span\x3e\x3c/li\x3e\n\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eAccount Parent / Child Nesting\x3c/span\x3e\x3cspan data-ccp-props=\"{\x26quot;134233279\x26quot;:true,\x26quot;201341983\x26quot;:0,\x26quot;335559739\x26quot;:0,\x26quot;335559740\x26quot;:240}\"\x3e \x3c/span\x3e\x3c/li\x3e\n\x3c/ul\x3e\x3cp\x3e \x3c/p\x3e\n\x3cp\x3e \x3c/p\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '3',
+                    FeaturedTab: ' Enrichment \x26 Activation',
+                    items: [
+                        
+                            {
+                                title: 'Enrich your integrated profiles with 1st, 2nd, and 3rd party data',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eAutomatically enrich your profiles with out-of-the-box fit data or connect multiple data sources to enrich your 1st party marketing and sales data with 3rd party fit data and lead generation data.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eBasic Firmographic \x26amp; Technographic Data\x3c/li\x3e\n\x3cli\x3ePredictive Firmographic \x26amp; Technographic Data\x3c/li\x3e\n\x3cli\x3e3rd Party Data Ingest\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Activate \x26 manage your audience segments from one centralized place',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eConveniently activate and manage your audiences from one place to power internal Marketo Engage programs, channels and native integrations as well as external programs and channels through integrated partners.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eInternal \x26amp; External Audience Activation\x3c/li\x3e\n\x3cli\x3eLead- and Account-level Audience Matching\x3c/li\x3e\n\x3cli\x3eAdobe Exchange Partner Integrations\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/plug-play-integrations',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Sync audiences between Marketo Engage and Adobe Experience Cloud',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eLeverage unique B2B-centric audience data from Marketo Engage across your Adobe Experience Cloud tech stack, unlocking powerful demand marketing uses cases and untapped potential for existing Adobe applications.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eManual \x26amp; Continuous Audience Sync ​\x3c/li\x3e\n\x3cli\x3eBi-directional Audience Matching​\x3c/li\x3e\n\x3cli\x3e1st Party Cookie Sync \x26amp; Hashed Email Sharing\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: 'https://www.adobe.com/experience-cloud.html',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '4',
+                    FeaturedTab: ' Targeting',
+                    items: [
+                        
+                            {
+                                title: 'Target lead and account audiences for inbound and ABM strategies',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eSimultaneously support your mix of lead and account-base strategies using advanced lead and account filters to target highly refined audiences based on fit, intent, engagement, CRM activity, offline data, and more.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAdvanced Lead \x26amp; Account Targeting\x3c/li\x3e\n\x3cli\x3eFit, Intent and Engagement Targeting\x3c/li\x3e\n\x3cli\x3eMarketing \x26amp; Sales CRM Activity Targeting\x3c/li\x3e\n\x3c/ul\x3e\x3c!--EndFragment--\x3e\x3cp\x3e \x3c/p\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Target personas across buying groups within your target accounts',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eCustomize and target specific personas within the buying groups of your target accounts to maximize account engagement and penetration together with sales for your ABM strategy.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3ePersona Management\x3c/li\x3e\n\x3cli\x3eCustom Personas\x3c/li\x3e\n\x3cli\x3ePersona Filtering \x26amp; Targeting\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/solutions/master-account-based-marketing/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Target audiences across social and paid channels for extended reach',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eTarget and re-target your lead and account-based marketing audiences across Marketo Engage’s native paid media integrations to extend the reach of your brand and influence conversions across the funnel.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eNative Google AdWords Integration\x3c/li\x3e\n\x3cli\x3eNative Facebook Ads Integration\x3c/li\x3e\n\x3cli\x3eNative LinkedIn Campaign Manager Integration\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/cross-channel-engagement/',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '5',
+                    FeaturedTab: ' Predictive Audiences',
+                    items: [
+                        
+                            {
+                                title: 'Target the right audience every time with confidence using AI',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eIncrease your chances of reaching your event and email goals without driving opt-outs using drag and drop predictive filters into your audience segmentation.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eLikelihood to Register Filters\x3c/li\x3e\n\x3cli\x3eLikelihood to Attend Filters\x3c/li\x3e\n\x3cli\x3eLikelihood to Unsubscribe Filters\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/predictive-audiences/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Use AI to find audiences similar to your best-fit customers',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3e\x3c!--StartFragment--\x3e\x3c/p\x3e\n\x3cp\x3eFind more of the right people to efficiently and effectively replicate success from one campaign to the next. Simply build or find an existing audience, and instantly identify more people who fit the bill.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eEmail Lookalike Audiences\x3c/li\x3e\n\x3cli\x3eEvent \x26amp; Webinar Lookalike Audiences\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/predictive-audiences/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Reach your goals with AI-powered in-flight recommendations',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eSet it and forget it campaigns are a thing of the past. Take proactive actions towards achieving your event goals using conversational recommendations that are delivered to you as actionable insights.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAI-powered Event Insights\x3c/li\x3e\n\x3cli\x3ePredictive Goal-Based Recommendations\x3c/li\x3e\n\x3cli\x3ePredictive Filter Recommendations\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/predictive-audiences/',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '6',
+                    FeaturedTab: ' Target Accounts',
+                    items: [
+                        
+                            {
+                                title: 'Turn Marketo Engage into your account-based marketing hub',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eAvoid separate databases, disconnected channels and reporting nightmares by using Marketo Engage as your lead and account-based marketing (ABM) hub.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAccount Selection \x26amp; List Management\x3c/li\x3e\n\x3cli\x3eAccount Personalization \x26amp; Segmentation\x3c/li\x3e\n\x3cli\x3eAccount Targeting \x26amp; Persona Management\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/solutions/account-based-marketing/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Automate your ABM programs the same way you do lead engagement',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eLeverage Marketo Engage’s existing experience automation engine to automate personalized account-based experiences (ABX) together with Sales across existing marketing, sales and paid media channels.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eABM Automation Triggers \x26amp; Filters\x3c/li\x3e\n\x3cli\x3eCross-channel ABM Engagement \x26amp; Nurture Programs\x3c/li\x3e\n\x3cli\x3eAccount Scoring \x26amp; Sales Engagement Integrations\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/solutions/master-account-based-marketing/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Understand the most accurate ROI possible for lead and ABM efforts',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eCentralize all your ABM performance data to know the combined ROI of sales and marketing activity across inbound and outbound efforts using turn-key ABM dashboards and premium ABM multi-touch attribution.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAccount-level Campaign Reporting \x26amp; Insights\x3c/li\x3e\n\x3cli\x3eAccount-level Attribution \x26amp; ROI Dashboards\x3c/li\x3e\n\x3cli\x3ePremium ABM Multi-touch Attribution\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/marketing-impact-analytics/',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '7',
+                    FeaturedTab: ' Profiling',
+                    items: [
+                        
+                            {
+                                title: 'Create AI-powered customer profiles for ABM with one click',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eWith a click of a button, AI will learn your best customers, then use millions of fit and intent data signals from across the web to create your own tunable ideal customer profile (ICP) model for account selection.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAI-powered Ideal Customer Profile (ICP) Models\x3c/li\x3e\n\x3cli\x3eEasy-to-use Custom Model Tuning\x3c/li\x3e\n\x3cli\x3ePredictive Account-level Fit \x26amp; Intent Data Indicators\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/account-profiling/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Discover target accounts across new and known data sources',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eSave weeks of time by letting AI use your ICP model to discover both known accounts from your database and net-new best-fit accounts from across the web that have the highest chance of turning into ABM revenue.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3eAutomatic Account Selection \x26amp; Prioritization\x3c/li\x3e\n\x3cli\x3eKnown Account Discovery\x3c/li\x3e\n\x3cli\x3eNew Account Discovery\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/account-profiling/',
+                                buttonColor: '323232'
+                            },
+                        
+                            {
+                                title: 'Build predictive target account lists based on data, not opinions',
+                                titleColor: '323232',
+                                imagePath : '/assets/',
+                                description: '\x3cp\x3eConvert predictive account rankings, propensity rates, fit and intent data indicators into ABM targeting filters and automation triggers to streamline AI-driven ABM engagement.\x3c/p\x3e\n\x3cul\x3e\x3cli\x3ePredictive Account Rankings\x3c/li\x3e\n\x3cli\x3ePredictive Propensity Scores\x3c/li\x3e\n\x3cli\x3eAI-powered ABM Automation Filters\x3c/li\x3e\n\x3c/ul\x3e',
+                                newTab: '0',
+                                buttonText: 'Learn More',
+                                buttonURL: '/software/account-profiling/',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+                {
+                    id: '8',
+                    FeaturedTab: ' Security',
+                    items: [
+                        
+                            {
+                                title: 'Know your precious data is protected, secure and compliant',
+                                titleColor: '323232',
+                                imagePath : '/assets/CollectionItem/Tab-Collection-img-attract-convert-feature8.png',
+                                description: '\x3cp\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eUse several data protection capabilities to encrypt your database at rest, authenticate encrypted email relays, and access data for longer periods of time, all while helping you comply with regulations such as GDPR, HIPAA, FINRA, \x26amp; SEC.\x3c/span\x3e\x3c/p\x3e\n\x3cul\x3e\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eDatabase Encryption \x26amp; Extended Data Retention\x3c/span\x3e\x3c/li\x3e\n\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eEncrypted Authentication\x3c/span\x3e\x3c/li\x3e\n\x3cli\x3e\x3cspan lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"\x3eHIPAA Compliant\x3c/span\x3e\x3cspan data-ccp-props=\"{\x26quot;134233279\x26quot;:true,\x26quot;201341983\x26quot;:0,\x26quot;335559739\x26quot;:0,\x26quot;335559740\x26quot;:240}\"\x3e\x3cbr\x3e\x3c/span\x3e\x3c/li\x3e\n\x3c/ul\x3e\x3cp\x3e \x3c/p\x3e',
+                                newTab: '0',
+                                buttonText: '',
+                                buttonURL: '',
+                                buttonColor: '323232'
+                            },
+                        
+                    ],
+                },
+            
+        ],
+        breakpoint: 1200,
+    }
+</script>
+
+<div class="collection-wrapper">
+    <h3 class="collection-heading" style="color:#323232;">Marketing Data Environment Features</h3>
+    <div id="react-hook-collection"></div>
+</div>
+
+<script>
+    // Set up react hooks for rendering with different id's to prevent render overwriting
+    layerData.hook = document.getElementById('react-hook-collection');
+    layerData.hookString = `react-hook-collection-${'1310'}`;
+    layerData.hook.setAttribute('id', layerData.hookString);
+</script>
+
+<script src="../../themes/the-interwebs/dist/javascript/collection-dom.js"></script>
+
+ 
+
+
+
+
+
+
+
+</div>
+</div>
+</main>
+
+    
+    
+    
+
+
+    <article class="footer-cta-wrapper" style='background-image: url("../../assets/SiteConfig/Get-Started-Blade2.png")'>
+        <section class="footer-cta-container container-adobe">
+            <h4>Ready to get started?</h4>
+            <p>To learn how you can make the most of Marketo Engage, request a personal consultation.</p>
+            <a class="cta light" href="../../demo/index.html">Get a personalized demo</a>
+        </section>
+    </article>
+
+
+
+
+    
+    
+        <div id="feds-footer"></div>
+        <ul id="marketo-regionPicker-menu" class="region-picker-override" role="menu" aria-labelledby="gnav_1242" hidden>
+            <li role="none">
+                <a href="index.html" role="menuitem" aria-current="true">United States (English)</a>
+            </li>
+            <li role="none">
+                <a href="https://de.marketo.com/software/marketing-data-environment/" role="menuitem" >Deutschland (Deutsch)</a>
+            </li>
+            <li role="none">
+                <a href="https://fr.marketo.com/software/environnement-de-donnees-marketing/" role="menuitem" >France (Français)</a>
+            </li>
+            <li role="none">
+                <a href="https://au.marketo.com/software/marketing-data-environment/" role="menuitem" >Australia (English)</a>
+            </li>
+            <li role="none">
+                <a href="https://uk.marketo.com/marketing-data-environment/" role="menuitem" >United Kingdom (English)</a>
+            </li>
+            <li role="none">
+                <a href="https://jp.marketo.com/" role="menuitem">日本 (日本語)</a>
+            </li>
+            <li role="none">
+                <a href="https://es.marketo.com/software/entorno-de-datos-de-marketing/" role="menuitem" >España (Español)</a>
+            </li>
+        </ul>
+    
+
+
+
+<script type="text/javascript" src="../../../ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script><script type="text/javascript" src="../../../app-ab29.marketo.com/js/forms2/js/forms2.min.js"></script><script type="text/javascript" src="../../themes/the-interwebs/dist/javascript/analytics-data-enrichment916b.js?m=1655934684"></script><script type="text/javascript" src="../../themes/the-interwebs/dist/javascript/page-passworddbf6.js?m=1655934549"></script><script type="text/javascript" src="../../themes/the-interwebs/dist/javascript/smooth-scrolldbf6.js?m=1655934549"></script><script type="text/javascript" src="../../../kit.fontawesome.com/742a67f310.js"></script><script type="text/javascript" src="../../themes/the-interwebs/dist/javascript/external-links851e.js?m=1655934671"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2177bc5f79","applicationID":"364577277,278031995","transactionName":"YVQBMhNQWRdQAk1QWFgeIBMSRVgJHiJYSVZUWA8PFVhSF3APXWpYWkQXDw5fRDRQBlxmdFlfFxQOXVsBQ05QV1NTSQ==","queueTime":0,"applicationTime":221,"atts":"TRMWRFtKSkgTABsDTEtM","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <!--
++----------+--------------------------------------------------+
+|  server  |  prod-app-2                                      |
+|  host    |  www.marketo.com                                 |
+|  commit  |  26fe2ad0163ac50f8fc411b2f83ded0e9cd5b3f6        |
+|  build   |  2022 June 22 09:51:27 PM UTC (1655934687) #45   |
+|  now     |  2022 August 23 09:45:54 AM UTC (1661247954)     |
++----------+--------------------------------------------------+
+-->
+        
+
+<!-- Mirrored from www.marketo.com/software/marketing-data-environment/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Aug 2022 11:16:28 GMT -->
+</html>
