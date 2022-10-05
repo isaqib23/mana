@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){var t,n=window.location.hash.split("?")[0],o=$("html, body");function i(n){n.length<=0||o.animate({scrollTop:n.offset().top-t},500)}t=(window.innerWidth<=1024?$(".mobile-main-nav-container"):$(".desktop-nav")).outerHeight(),""!==n&&i($(n)),$('a[href*="#"]').on("click",function(n){i($(n.target.hash))})});
