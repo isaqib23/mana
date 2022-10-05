@@ -1,3 +1,11 @@
+<style>
+    .background.gradient.marketo {
+        background-image: none !important;
+    }
+    .background.marketo {
+        background-color: #8F191F;
+    }
+</style>
 <header class="feds-header-wrapper feds-header-wrapper--sticky" style="">
     <div id="feds-header" class="feds--smallDesktopEnabled">
         <div class="gnavTopnav">

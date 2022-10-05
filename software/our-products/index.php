@@ -15,7 +15,7 @@ include "../../header.php"
             <section class="image-cover background gradient marketo"
 
 
-                     style="background-image: url(../../assets/pages/StaircasePage/Bottom-CTA-ABM-Resource-1366x502.jpg);"
+                     style="background-color: #8F191F;"
 
                 >
                 <div id="rtp-10800-header" class="rtp-container container hero Medium  tac">

@@ -53,7 +53,7 @@ include "header.php"
 
                     <div class="text-container">
 
-                        <h3>October 14th – the future of Self Directed services seminar.</h3>
+                        <h3>November 18th – the future of Self Directed services seminar.</h3>
                         <p>Hear how global leaders in self-direction see the future.</p>
 
                     </div>
@@ -123,7 +123,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/21963-Content-Personalization.png"/>
+                                <img src="assets/images/time_attandance.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -132,7 +132,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4453" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4453" class="cta grey">
                                         Learn more
                                     </a>
 
@@ -142,7 +142,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/21963-Experience-Automation.png"/>
+                                <img src="assets/images/funding_spending.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -151,7 +151,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4452" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4452" class="cta grey">
                                         Learn more
                                     </a>
 
@@ -161,7 +161,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/22030-Flex-Img-marquee-cross-channel-engagement.png"/>
+                                <img src="assets/images/direct_payment.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -170,7 +170,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4455" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4455" class="cta grey">
                                         Learn more
                                     </a>
 
@@ -181,7 +181,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/21963-Data-Environment.png"/>
+                                <img src="assets/images/automation.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -190,7 +190,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4454" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4454" class="cta grey">
                                         Learn more
                                     </a>
 
@@ -200,7 +200,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/21963-Sales-Partnership.png"/>
+                                <img src="assets/images/onboarding.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -209,7 +209,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4450" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4450" class="cta grey">
                                         Learn more
                                     </a>
 
@@ -219,7 +219,7 @@ include "header.php"
 
                         <section class="image-card">
                             <div class="image-head">
-                                <img src="assets/SpectrumCard/21963-Marketing-Analytics.png"/>
+                                <img src="assets/images/web_app.jpg"/>
                             </div>
                             <div class="card-data">
                                 <div class="card-text">
@@ -228,7 +228,7 @@ include "header.php"
                                 </div>
                                 <div class="cta-alignment">
 
-                                    <a href="<?=baseUrl()?>/software/marketo-sales-connect/#sectionID-4474" class="cta grey">
+                                    <a href="<?=baseUrl()?>/software/our-products/#sectionID-4474" class="cta grey">
                                         Learn more
                                     </a>
 
