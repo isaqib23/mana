@@ -25,7 +25,7 @@ include "../../header.php"
 
                                 <h1 class="adobe-header">Our Products</h1>
 
-                            <h2 >Drive more pipeline faster with coordinated Sales and Marketing engagements</h2>
+                            <h2 >A comprehensive suite of products that are purpose built for self-direction</h2>
 
 
                 </div>

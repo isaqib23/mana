@@ -48,7 +48,7 @@ include "../../header.php"
             <span class="label" style="color:#4C50CC;"></span>
             <h3>SaaS Product Offering</h3>
             <div class="simple-description">
-                <p>Simple, capability-rich packages to help elevate customer experience and drive demand.</p>
+                <p>Simple, capability-rich packages that can be tailored to suite your needs</p>
             </div>
         </div>
     </div>
@@ -270,7 +270,7 @@ include "../../header.php"
                 <div class="package-includes includes-height-fixed">
                     <h3>Includes:</h3>
                     <ul>
-                        <li>Digital Onboarding: Customer onboarding self-service solution that removes the need for paper documents</li>
+                        <li>Digital onboarding module instead of just digital onboarding and personal assistant finder module instead of personal assistant finder</li>
                         <li>Direct Payments Module: End to end management of direct payment disbursements including Customer self-service options</li>
                         <li>Funder Compliance Module: Dedicated Funder view of spending compliance</li>
                         <li>Personal Assistant Finder: Connect employers with job seekers

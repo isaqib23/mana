@@ -1,7 +1,7 @@
 
 
 
-<article class="footer-cta-wrapper" style='background-image: url("<?=baseUrl()?>/assets/SiteConfig/Get-Started-Blade2.png")'>
+<article class="footer-cta-wrapper" style='height: 250px !important; background-image: url("<?=baseUrl()?>/assets/SiteConfig/Get-Started-Blade2.png")'>
     <section style="width: auto" class="footer-cta-container container-adobe">
         <h4>Ready to get started?</h4>
         <p>To learn how you can transform your self-directed services, request a personal consultation.</p>
@@ -631,22 +631,22 @@
 
                                                             <ul class="feds-navList" daa-lh="Problems_We_Solve">
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/news" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">News</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/about" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">About us</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/helpcenter/" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Help Center</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/why-manawanui/services-and-support/support" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Contact us</span></span></span></span>
                                                                     </a>
                                                                 </li>

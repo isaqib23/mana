@@ -35,8 +35,8 @@ include "header.php"
             <span class="label" style="color:#4C50CC;"></span>
             <h3>Terms & Conditions</h3>
             <div class="simple-description">
-                <p>Welcome to the Client Portal, a website service hosted and operated by Manawanui Support Limited.</p>
-                <p>Last updated: 13th August 2019</p>
+                <p>Website service hosted and operated by Manawanui Support Limited.</p>
+                <p>Last updated: 7th October 2022</p>
             </div>
 
             <div class="simple-description" style="text-align: left">

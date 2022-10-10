@@ -253,7 +253,7 @@ include "header.php"
         ">
                     <div class="staircase__image-container">
 
-                        <img src="assets/StaircaseLayer/Interactive-Tour-Laptop.png" alt="Interactive Tour Laptop"
+                        <img src="assets/images/placeholder.png" alt="Interactive Tour Laptop"
                              class="staircase__image"/>
 
                     </div>
@@ -266,7 +266,7 @@ include "header.php"
                         <div class="staircase__description"><p>Watch an overview of our product offering and an in depth demo covering key features and capabilities.</p></div>
 
 
-                        <a href="product-tour/index.html" class="cta grey">View product tour</a>
+                        <a href="<?=baseUrl()?>/product-tour" class="cta grey">View product tour</a>
 
                     </div>
                 </div>
