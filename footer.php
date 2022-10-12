@@ -202,13 +202,59 @@
 
                                                             <ul class="feds-navList" daa-lh="Problems_We_Solve">
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
-                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Our Products</span></span></span></span>
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4450" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Digital Onboarding</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4451" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Budgeting</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4452" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Funding & Spending Management</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4453" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Time & Attendance and Payroll</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4473" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Direct Payments Management</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4454" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Personal Assistant Finder</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4474" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Funder Compliance Module</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/our-products?id=sectionID-4455" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Payments Management</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+
+
+
+
+
+
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
                                                                     <a id="gnt_629" href="<?=baseUrl()?>/product-tour" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Product tour</span></span></span></span>
+                                                                    </a>
+                                                                </li>
+                                                                <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/solutions/pricing/" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                        <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Pricing</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>

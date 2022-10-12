@@ -6,6 +6,17 @@
     ?>
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/pages/structured-page56bd.css" />
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/elements/template-image-flushddc3.css" />
+    <?php if(isset($_GET["id"])){ ?>
+        <script src="../../assets/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function (){
+                $('html, body').animate({
+                    scrollTop: $("#<?=$_GET["id"]?>").offset().top
+                }, 1000);
+            })
+
+        </script>
+    <?php } ?>
 </head>
 <body class="staircasepage StaircasePage Action-index lead-data-unknown locale-us" dir="ltr">
 <?php
@@ -210,7 +221,7 @@ include "../../header.php"
 </div>
 
 
-    <div class='js-scroll-to-section' id='sectionID-4454' data-scroll-id='sectionID-4453' data-title='Coordinate Marketing Aircover'>
+    <div class='js-scroll-to-section' id='sectionID-4454' data-scroll-id='sectionID-4454' data-title='Coordinate Marketing Aircover'>
 
         <section class="image-element background white rtp-container" id="rtp-4453-content"
                  style="">
@@ -245,7 +256,7 @@ include "../../header.php"
     </div>
 
 
-    <div class='js-scroll-to-section' id='sectionID-4474' data-scroll-id='sectionID-4473' data-title='Partner to Drive Consistency and Best Practices'>
+    <div class='js-scroll-to-section' id='sectionID-4474' data-scroll-id='sectionID-4474' data-title='Partner to Drive Consistency and Best Practices'>
 
         <section class="image-flush background white rtp-container" id="rtp-4473-content"
                  style="">
@@ -283,7 +294,7 @@ include "../../header.php"
     </div>
 
 
-    <div class='js-scroll-to-section' id='sectionID-4455' data-scroll-id='sectionID-4453' data-title='Coordinate Marketing Aircover'>
+    <div class='js-scroll-to-section' id='sectionID-4455' data-scroll-id='sectionID-4455' data-title='Coordinate Marketing Aircover'>
 
         <section class="image-element background white rtp-container" id="rtp-4453-content"
                  style="">

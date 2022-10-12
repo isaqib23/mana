@@ -10,6 +10,20 @@
         ul {
             padding-left: 20px !important;
         }
+        .container .vam {
+            width: 100% !important;
+        }
+        .image-flush-right-text-left h2 {
+            display: inline-block !important;
+            vertical-align: top !important;
+            margin-right: 60px !important;
+            font-size: 25px !important;
+            width: 15% !important;
+        }
+        .container ul {
+            display: inline-block !important;
+            width: 70% !important;
+        }
     </style>
 </head>
 <body class="staircasepage StaircasePage Action-index lead-data-unknown locale-us" dir="ltr">
@@ -58,9 +72,6 @@ include "../../header.php"
                 </li>
             </ul>
 		</div>
-        <div class="image tar ">
-            <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-        </div>
 
     </div>
 </section>
@@ -83,9 +94,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -106,9 +115,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -138,9 +145,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -163,9 +168,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -189,9 +192,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -209,9 +210,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -229,9 +228,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -250,9 +247,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -270,9 +265,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -292,9 +285,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -319,9 +310,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -341,9 +330,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -363,9 +350,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -386,9 +371,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -410,9 +393,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -433,9 +414,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -454,9 +433,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -474,9 +451,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -507,9 +482,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -532,9 +505,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -558,9 +529,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
@@ -583,9 +552,7 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-                <div class="image tar ">
-                    <img src="../../assets/images/placeholder.png" alt="15670 SectionA" />
-                </div>
+
             </div>
         </section>
     </div>
