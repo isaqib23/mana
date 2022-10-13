@@ -47,6 +47,7 @@ include "../../header.php"
                     <h5 style="color: #15124b">SEPTEMBER 2, 2022</h5>
                     <br>
                     <p>From getting started to making payments, our Manawanui team is friendly and highly experienced, providing you with as much, or as little support as you need. We are all passionate about ensuring everyone has access to make their own choices about their supports. Our easy-to-use digital tools to make it as easy as possible for you to manage your disability funding and our Customer Experience Centre, and Coaches are there to give you all the support you need.</p>
+                    <a href="#">read more ...</a><br><br>
                 </div>
                 <hr>
                 <br>
@@ -57,6 +58,7 @@ include "../../header.php"
                     <h5 style="color: #15124b">SEPTEMBER 2, 2022</h5>
                     <br>
                     <p>From getting started to making payments, our Manawanui team is friendly and highly experienced, providing you with as much, or as little support as you need. We are all passionate about ensuring everyone has access to make their own choices about their supports. Our easy-to-use digital tools to make it as easy as possible for you to manage your disability funding and our Customer Experience Centre, and Coaches are there to give you all the support you need.</p>
+                    <a href="#">read more ...</a><br><br>
                 </div>
             </div>
         </section>

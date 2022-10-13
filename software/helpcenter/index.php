@@ -46,8 +46,8 @@ include "../../header.php"
                     <ul>
                         <li><a href="#">Setup Steps</a></li>
                         <li><a href="#">Get Set Up and Add a Person</a></li>
-                        <li><a href="#">Configure Protocols for Marketo</a></li>
-                        <li><a href="#">Marketo Glossary</a></li>
+                        <li><a href="#">Configure Protocols for My life My way</a></li>
+                        <li><a href="#">My life My way Glossary</a></li>
                     </ul>
                 </div>
                 <div class="content vam" style="width: 100%">
@@ -63,7 +63,15 @@ include "../../header.php"
                             <a href="#">Understanding Smart Campaigns</a>
                         </li>
                         <li>
-                            <a href="#">Adobe Marketo Engage Next Gen UX Experience Overview</a>
+                            <a href="#">My life My way Engage Next Gen UX Experience Overview</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content vam" style="width: 100%">
+                    <h2>Release Notes</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Current Release</a>
                         </li>
                     </ul>
                 </div>

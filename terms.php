@@ -33,7 +33,7 @@ include "header.php"
     <div class="simple-marquee-container">
         <div class="simple-marquee-text">
             <span class="label" style="color:#4C50CC;"></span>
-            <h3>Terms & Conditions</h3>
+            <h3>Terms of Service</h3>
             <div class="simple-description">
                 <p>Website service hosted and operated by Manawanui Support Limited.</p>
                 <p>Last updated: 7th October 2022</p>
@@ -41,7 +41,7 @@ include "header.php"
 
             <div class="simple-description" style="text-align: left">
                 <p>
-                    These Terms of Service ("Terms", "Terms of Service") govern your relationship with https://portal.manawanui.org.nz/ website (the "Service") operated by Manawanui Support Limited ("us", "we", or "our").
+                    These Terms of Service ("Terms", "Terms of Service") govern your relationship with My Life My Way (the "Service") operated by Manawanui Support Limited ("us", "we", or "our").
                 </p><br><p>
                     These terms apply to the entire contents of the site including any mail, claims, timesheets, expenses, budgets, documents or information provided through the Service.
                 </p><br><p>

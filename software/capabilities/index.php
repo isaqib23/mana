@@ -300,26 +300,6 @@ include "../../header.php"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
-                    <h2>Monitoring</h2>
-                    <ul>
-                        <li>In-built monitoring service</li>
-                        <li>Ability to check the status of critical system processes and services in a dedicated dashboard</li>
-                        <li>Active monitoring of connected systems and interfaces including automated alerts when interfaces become unstable or stop working</li>
-                        <li>Support for Microsoft Azure Cloud monitoring services</li>
-                        <li>Support for integration to service management systems (e.g. JIRA)
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-    </div>
-    <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
-
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
-                 style="">
-            <div class="container image-flush-right-text-left">
-                <div class="content vam">
                     <h2>Accessibility</h2>
                     <ul>
                         <li>UI support for Dyslexia</li>

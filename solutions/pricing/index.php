@@ -214,7 +214,7 @@ include "../../header.php"
                     <div class="package-includes includes-height-fixed">
                         <h3>Includes:</h3>
                         <ul>
-                            <li>Everything in the Advanced package</li>
+                            <li>Everything in the Enhanced package</li>
                             <li>Bank account integration and bank transaction aggregation</li>
                             <li>Advanced spending analysis and compliance monitoring</li>
                             <li>Automated timesheet processing</li>

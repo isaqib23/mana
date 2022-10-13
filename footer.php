@@ -157,7 +157,7 @@
 
 
                                                 <div class="feds-popup-trigger">
-                                                    <a style="padding-left: 30px" id="gnf_25" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Products-1" role="heading" aria-level="2" tabindex="-1" style="pointer-events: none;">
+                                                    <a style="padding-left: 53px" id="gnf_25" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Products-1" role="heading" aria-level="2" tabindex="-1" style="pointer-events: none;">
 
         <span class="feds-navLink-contentWrapper">
             <span class="feds-navLink-content">
@@ -363,7 +363,7 @@
 
 
                                                 <div class="feds-popup-trigger">
-                                                    <a  id="gnf_189" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Capabilities-1" role="heading" aria-level="2" tabindex="-1" style="padding-left: 30px; pointer-events: none;">
+                                                    <a  id="gnf_189" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Capabilities-1" role="heading" aria-level="2" tabindex="-1" style="padding-left: 53px; pointer-events: none;">
 
         <span class="feds-navLink-contentWrapper">
             <span class="feds-navLink-content">
@@ -632,7 +632,7 @@
 
 
                                                 <div class="feds-popup-trigger">
-                                                    <a id="gnf_981" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Resources-1" role="heading" aria-level="2" tabindex="-1" style="padding-left: 30px; pointer-events: none;">
+                                                    <a id="gnf_981" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Resources-1" role="heading" aria-level="2" tabindex="-1" style="padding-left: 53px; pointer-events: none;">
 
         <span class="feds-navLink-contentWrapper">
             <span class="feds-navLink-content">
@@ -1448,74 +1448,7 @@
 
 
 
-                                            <li id="Globalnav.Copyright_2021_Adobe_All_rights_reserved_.Do_not_sell_my_personal_information" class="feds-navList-item">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                <a id="gnf_1380" href="https://www.adobe.com/privacy/ca-rights.html" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Do_not_sell_my_personal_information-4">
-
-        <span class="feds-navLink-contentWrapper">
-            <span class="feds-navLink-content">
-                <span class="feds-navLink-text">
-                    <span class="feds-navLink-text--default">Do not sell my personal information</span>
-
-
-                </span>
-
-            </span>
-        </span>
-                                                </a>
-
-
-
-                                            </li>
-
+                                            
 
 
 

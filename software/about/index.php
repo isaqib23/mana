@@ -28,7 +28,7 @@ include "../../header.php"
 
 
 
-                                <h1 class="adobe-header">What we do</h1>
+                                <h1 class="adobe-header">About us</h1>
 
 
 
@@ -62,13 +62,7 @@ include "../../header.php"
 </section>
 </div>
 
-    <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
-                 style="">
-            <iframe style="    width: 90%; margin-left: 60px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="720" src="https://www.youtube.com/embed/cZBYblVgQsg" title="YouTube video player" width="1280"></iframe>
-        </section>
-    </div>
 
 
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
