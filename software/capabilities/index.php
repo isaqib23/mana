@@ -16,9 +16,9 @@
         .image-flush-right-text-left h2 {
             display: inline-block !important;
             vertical-align: top !important;
-            margin-right: 60px !important;
+            margin-right: 25px !important;
             font-size: 25px !important;
-            width: 15% !important;
+            width: 12% !important;
         }
         .container ul {
             display: inline-block !important;
@@ -44,7 +44,9 @@ include "../../header.php"
 
                                 <h1 class="adobe-header">Capabilities</h1>
 
-                            <h2 >Transform your self-directed services with our capabilities</h2>
+                            <h2 >Transform your self-directed services with our ever-growing list of capabilities
+
+                            </h2>
 
 
                 </div>

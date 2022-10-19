@@ -53,7 +53,7 @@ include "header.php"
 
                     <div class="text-container">
 
-                        <h3>November 18th – the future of Self Directed services seminar.</h3>
+                        <h3>December 9th – the future of Self Directed services seminar.</h3>
                         <p>Hear how global leaders in self-direction see the future.</p>
 
                     </div>

@@ -270,7 +270,7 @@ include "../../header.php"
                 <div class="package-includes includes-height-fixed">
                     <h3>Includes:</h3>
                     <ul>
-                        <li>Digital onboarding module instead of just digital onboarding and personal assistant finder module instead of personal assistant finder</li>
+                        <li>Digital Onboarding Module: Instead of just digital onboarding and personal assistant finder module instead of personal assistant finder</li>
                         <li>Direct Payments Module: End to end management of direct payment disbursements including Customer self-service options</li>
                         <li>Funder Compliance Module: Dedicated Funder view of spending compliance</li>
                         <li>Personal Assistant Finder: Connect employers with job seekers
