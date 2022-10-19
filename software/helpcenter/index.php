@@ -54,6 +54,9 @@ include "../../header.php"
                     <h2>Popular Resources</h2>
                     <ul>
                         <li>
+                            <a href="<?=baseUrl()?>/customers">Case Studies</a>
+                        </li>
+                        <li>
                             <a href="#">Understanding the Salesforce Sync</a>
                         </li>
                         <li>

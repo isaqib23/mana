@@ -25,6 +25,17 @@
             width: 70% !important;
         }
     </style>
+    <?php if(isset($_GET["id"])){ ?>
+        <script src="../../assets/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function (){
+                $('html, body').animate({
+                    scrollTop: $("#<?=$_GET["id"]?>").offset().top
+                }, 1000);
+            })
+
+        </script>
+    <?php } ?>
 </head>
 <body class="staircasepage StaircasePage Action-index lead-data-unknown locale-us" dir="ltr">
 <?php
@@ -60,7 +71,7 @@ include "../../header.php"
 
 	<div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-<section class="image-flush background white rtp-container" id="rtp-4450-content"
+<section class="image-flush background white rtp-container" id="Onboarding"
 		 style="">
     <div class="container image-flush-right-text-left">
 		<div class="content vam">
@@ -81,7 +92,7 @@ include "../../header.php"
 
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Budgeting"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -102,7 +113,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Funding"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -123,7 +134,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Spending"
                  style="">
             <div class="container image-flush-right-text-left">
 
@@ -153,7 +164,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Payments"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -176,7 +187,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Workforce"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -200,7 +211,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Compliance"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -218,7 +229,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Application"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -236,7 +247,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Integration"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -255,7 +266,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Reporting"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -273,7 +284,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Monitoring"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -298,7 +309,7 @@ include "../../header.php"
 
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Accessibility"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -318,7 +329,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Security"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -338,7 +349,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Authentication"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -359,7 +370,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Smartphone"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -381,7 +392,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Automation"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -402,7 +413,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Module"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -421,7 +432,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Purchasing"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -439,7 +450,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Payroll"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -470,7 +481,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Direct"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -493,7 +504,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Funding"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">
@@ -517,7 +528,7 @@ include "../../header.php"
     </div>
     <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+        <section class="image-flush background white rtp-container" id="Personal"
                  style="">
             <div class="container image-flush-right-text-left">
                 <div class="content vam">

@@ -100,7 +100,7 @@ include "header.php"
 
                     </div>
 
-                    <a href="<?=baseUrl()?>/software/our-products/">Case Studies</a>
+                    <a href="<?=baseUrl()?>/customers/">Case Studies</a>
 
                 </div>
             </section>

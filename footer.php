@@ -408,57 +408,57 @@
 
                                                             <ul class="feds-navList" daa-lh="Problems_We_Solve">
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Payments" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Payment Module</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Purchasing" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Purchasing Decision Making</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Workforce" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Workforce Scheduling & Rostering</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Module" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Spending Compliance Module</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Compliance" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Audit & Compliance</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Application" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Web Application</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Smartphone" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Smartphone Application</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Integration" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Integration</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Authentication" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Authentication</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Security" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Security</span></span></span></span>
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/software/capabilities?id=Monitoring" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Monitoring</span></span></span></span>
                                                                     </a>
                                                                 </li>
