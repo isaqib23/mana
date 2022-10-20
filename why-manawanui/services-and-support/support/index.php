@@ -293,6 +293,7 @@ include "../../../header.php"
 			
 			<div class="rtp-container nothing-div" id="rtp-401-h2">
 			<h2 >Contact us</h2>
+                <a href="mailto:info@mylifemyway.co.uk">info@mylifemyway.co.uk</a>
 			</div>
 			
 			

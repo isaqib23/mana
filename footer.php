@@ -697,7 +697,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li id="Globalnav.Solutions.Problems_We_Solve.Attract_and_Convert_Prospects" class="feds-navList-item">
-                                                                    <a id="gnt_629" href="#" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
+                                                                    <a id="gnt_629" href="<?=baseUrl()?>/customers" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Attract_and_Convert_Prospects-1">
                                                                         <span class="feds-navLink-contentWrapper"><span class="feds-navLink-content"><span class="feds-navLink-text"><span class="feds-navLink-text--default">Case Studies</span></span></span></span>
                                                                     </a>
                                                                 </li>
@@ -1578,6 +1578,7 @@
     document.getElementById("Globalnav.Capabilities").onclick = function() {toGggoleMenu("CapabilitiesPopup")};
 
     let menuIds = ["productPopup","resourcePopup","CapabilitiesPopup"]
+
     function toGggoleMenu(id) {
         for (let i = 0; i < menuIds.length; i++) {
             if(menuIds[i] != id){

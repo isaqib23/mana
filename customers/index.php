@@ -6,102 +6,90 @@
     ?>
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/assets/template-resources.css" />
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/assets/template-hero-slider.css" />
+    <style>
+        hr {
+            height: 5px;
+            background-color: #8F171F;
+            border: none;
+        }
+    </style>
 </head>
 <body class="resourcetype ResourceType Action-index lead-data-unknown locale-us" dir="ltr">
 <?php
 include "../header.php"
 ?>
-<link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+
+
+<article class="header-wrapper" style="margin-top: 65px">
+    <section class="image-cover background gradient marketo"
+
+
+             style="background-color: #8F191F;"
+
+    >
+        <div style="height: 10.8rem;" id="rtp-10800-header" class="rtp-container container hero Medium  tac">
+
+            <h1 class="adobe-header">Case Studies</h1>
+
+        </div>
+    </section>
+</article>
+
+
+
+
 <main id="layout-wrapper">
-    
 
+    <div class='js-scroll-to-section' id='sectionID-4450' data-scroll-id='sectionID-4450' data-title='Increase Sales Productivity'>
 
-
-
-
-    <div class='js-scroll-to-section' id='sectionID-713' data-scroll-id='sectionID-713' data-title='Hero Slider Element'>
-
-<section id="homepage-hero" class="background gradient black slider  has-dots Large" data-color="">
-    
-    
-        <section style="
-        background-image: url('<?=baseUrl()?>/assets/SiteConfig/Get-Started-Blade2.png');"
-                 class=" hero-slide"
-                 data-desktop-background="<?=baseUrl()?>/assets/SiteConfig/Get-Started-Blade2.png"
-            
-        >
-            <div class="slider-content-container">
-                <div style="height: 23.25rem !important;" id="rtp-714" class="rtp-container container hero  Large  ">
-                    <div class="mobile-image-container">
-                        
-                    </div>
-                    
-                        <h1 style="margin-bottom: 0px !important; margin-top:4rem">By personalizing the way they engage<br />
-doctors, GE drives $600M in wins</h1>
-
-                    <a class="banner-link cta" href="<?=baseUrl()?>/customers/preview.php" target="_blank" rel="noopener" style="background-color: #CE282C;
-    border-color: #CE282C; margin-top: 25px">SEE STORY</a>
-                    
+        <section class="image-flush background white rtp-container" id="rtp-4450-content"
+                 style="">
+            <div class="container image-flush-right-text-left" style="display: block;">
+                <div class="content vam" style="width: 100%">
+                    <h3 style="color: #15124b">The Manawanui Journey</h3>
+                    <br>
+                    <p>The My Life My Way digital platform has delivered significant impact for Manawanui in terms of positive customer impacts, operational efficiency and growth, and transparency – this has enabled more people to adopt a self-directed approach in New Zealand – enabling choice, control and flexibility and good lives for people with disabilities</p>
+                    <a href="<?=baseUrl()?>/customers/preview.php?id=UK_SaaS_Case_Study_Manawanui">View Case Study</a><br><br>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div class="content vam" style="width: 100%">
+                    <h3 style="color: #15124b">Product Video</h3>
+                    <br>
+                    <p>Please watch the product video for more details</p>
+                    <a href="<?=baseUrl()?>/customers/video_preview.php?video=product_video">read more ...</a><br><br>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div class="content vam" style="width: 100%">
+                    <h3 style="color: #15124b">My Life My Way Video</h3>
+                    <br>
+                    <p>Please watch the My Life My Way video for more details</p>
+                    <a href="<?=baseUrl()?>/customers/video_preview.php?video=mylife_video">read more ...</a><br><br>
                 </div>
             </div>
         </section>
-    
-</section></div>
+    </div>
 
-<section class="tac">
-
+    </div>
 
 
-    
-        <section class="background grey padding tb-30-30 shadow effect6 customers-container">
-            <h6 class="font-color body">Case Studies</h6>
-            <div class="container resources">
 
-                <a href="#" target="" class="resource-list-item">
-                <span class="shadow resource">
-                        <video
-                                id="my-video"
-                                class="video-js"
-                                controls
-                                preload="auto"
-                                width="250"
-                                height="180"
-                                poster="<?=baseUrl()?>/assets/Uploads/video1.png"
-                                data-setup="{}"
-                        >
-                        <source src="<?=baseUrl()?>/assets/Uploads/Skype.mp4" type="video/mp4" />
-                        <source src="<?=baseUrl()?>/assets/Uploads/Skype.mp4" type="video/webm" />
-                        </video>
-                </span>
-                    <span class= "title">Product</span>
-                    <span class="resource-cta">View Case Study</span>
-                </a>
 
-                <a href="#" target="" class="resource-list-item">
-                <span class="shadow resource">
-                        <video
-                                id="my-video"
-                                class="video-js"
-                                controls
-                                preload="auto"
-                                width="250"
-                                height="180"
-                                poster="<?=baseUrl()?>/assets/Uploads/video2.png"
-                                data-setup="{}"
-                        >
-                        <source src="<?=baseUrl()?>/assets/Uploads/Skype_2.mp4" type="video/mp4" />
-                        <source src="<?=baseUrl()?>/assets/Uploads/Skype_2.mp4" type="video/webm" />
-                        </video>
-                </span>
-                    <span class= "title">My Life My Way</span>
-                    <span class="resource-cta">View Case Study</span>
-                </a>
-            </div>
-        </section>
 
-</section>
 
 </main>
+
+
+
+
+
+
+
+
+
 <?php
 include "../footer.php"
 ?>

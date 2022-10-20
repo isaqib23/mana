@@ -36,7 +36,7 @@ include "../header.php"
                         
                     </div>
                     
-                        <h1 style="margin-bottom: 0px !important; margin-top:4rem">Case Study Preview</h1>
+                        <h1 style="margin-bottom: 0px !important; margin-top:4rem">Preview</h1>
                     
                 </div>
             </div>
@@ -45,7 +45,7 @@ include "../header.php"
 </section></div>
 
 <section class="tac" style="width: 80%; margin: 0 auto;">
-    <iframe src="https://docs.google.com/viewer?url=<?=baseUrl()?>/assets/Uploads/UK_SaaS_Case_Study_Manawanui.pdf&embedded=true"
+    <iframe src="https://docs.google.com/viewer?url=<?=baseUrl()?>/assets/Uploads/<?=$_GET["id"]?>.pdf&embedded=true"
             style="width:100%; height:1000px;"
             frameborder="0"></iframe>
 </section>

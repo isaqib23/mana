@@ -7,8 +7,10 @@
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/pages/structured-page56bd.css" />
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/elements/template-image-flushddc3.css" />
     <style>
-        ul {
-            padding-left: 20px !important;
+        hr {
+            height: 5px;
+            background-color: #8F171F;
+            border: none;
         }
     </style>
 </head>
@@ -42,22 +44,40 @@ include "../../header.php"
                  style="">
             <div class="container image-flush-right-text-left" style="display: block;">
                 <div class="content vam" style="width: 100%">
-                    <h4 style="color: #15124b">PLATFORM UPDATES</h4>
-                    <h3 style="color: #15124b">August 2022 Updates</h3>
-                    <h5 style="color: #15124b">SEPTEMBER 2, 2022</h5>
+                    <h3 style="color: #15124b">October 2022 Updates</h3>
+                    <h5 style="color: #15124b">October 11, 2022</h5>
                     <br>
-                    <p>From getting started to making payments, our Manawanui team is friendly and highly experienced, providing you with as much, or as little support as you need. We are all passionate about ensuring everyone has access to make their own choices about their supports. Our easy-to-use digital tools to make it as easy as possible for you to manage your disability funding and our Customer Experience Centre, and Coaches are there to give you all the support you need.</p>
+                    <p>My Life My Way have been meeting with a number of Local Authorities across the UK to share knowledge about self-directed services and also to demonstrate the My Life My Way solution and how it can enable people with funding to be self-servicing.  All of our meetings have been fantastic and we thank the teams at the Local Authorities for being so welcoming and for giving their time to meet with us.  We look forward to whats next working with our UK business partners.</p>
+                    <a href="#">read more ...</a><br><br>
+                    <br><br>
+                    <h5 style="color: #15124b">October 10, 2022</h5>
+                    <br>
+                    <p>The My Life My Way leadership team met with Citizen Network and Self-Directed Futures in Sheffield to see what they are working on and to talk about self-direction and the future of self-directed services.    We will be continuing our support for these organisations as we look to the future and further growth in self-directed services.</p>
                     <a href="#">read more ...</a><br><br>
                 </div>
                 <hr>
                 <br>
                 <br>
                 <div class="content vam" style="width: 100%">
-                    <h4 style="color: #15124b">PLATFORM UPDATES</h4>
-                    <h3 style="color: #15124b">August 2022 Updates</h3>
-                    <h5 style="color: #15124b">SEPTEMBER 2, 2022</h5>
+                    <h3 style="color: #15124b">September 2022 Updates</h3>
+                    <h5 style="color: #15124b">September 9, 2022</h5>
                     <br>
-                    <p>From getting started to making payments, our Manawanui team is friendly and highly experienced, providing you with as much, or as little support as you need. We are all passionate about ensuring everyone has access to make their own choices about their supports. Our easy-to-use digital tools to make it as easy as possible for you to manage your disability funding and our Customer Experience Centre, and Coaches are there to give you all the support you need.</p>
+                    <p>My Life My Way have been defining our technology roadmap looking forward for the next few years.  We have brought some new skills into the technology team to get a better perspective on the future of payments networks and transaction processing and how the changes to these can benefit people using self-directed services.</p>
+                    <a href="#">read more ...</a><br><br>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div class="content vam" style="width: 100%">
+                    <h3 style="color: #15124b">August 2022 Updates</h3>
+                    <h5 style="color: #15124b">August 12, 2022</h5>
+                    <br>
+                    <p>We have been gathering feedback from our Customers and they have told us they want better self-help options in My Life My Way.  We have added this to our development roadmap and are now scheduling this work into our development plans for this year – watch this space!</p>
+                    <a href="#">read more ...</a><br><br>
+                    <br><br>
+                    <h5 style="color: #15124b">August 03, 2022</h5>
+                    <br>
+                    <p>A new iteration of spending management has been implemented in My Life My Way.  The newly enhanced version of this capability includes greater functionality to automatically monitor spending and to alert the Customer and those supporting them to the need to look at spending.</p>
                     <a href="#">read more ...</a><br><br>
                 </div>
             </div>

@@ -7,18 +7,20 @@
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/pages/structured-page56bd.css" />
     <link rel="stylesheet" type="text/css" href="<?=baseUrl()?>/themes/the-interwebs/dist/css/elements/template-image-flushddc3.css" />
     <style>
-        ul {
-            padding-left: 20px !important;
-        }
+
         .container .vam {
             width: 100% !important;
+            display: table !important;
+        }
+        .image-flush-right-text-left {
+            border-bottom: 4px solid #8F171F;
         }
         .image-flush-right-text-left h2 {
-            display: inline-block !important;
-            vertical-align: top !important;
+            display: table-cell !important;
+            vertical-align: middle !important;
             margin-right: 25px !important;
             font-size: 25px !important;
-            width: 12% !important;
+            width: 13% !important;
         }
         .container ul {
             display: inline-block !important;
@@ -78,6 +80,9 @@ include "../../header.php"
 			<h2>Onboarding</h2>
             <ul>
                 <li>Digital online self-service for Customers</li>
+                <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                    <img src="<?=baseUrl()?>/assets/capabilities/Onboarding%20320x448%20r.jpg" alt="15670 SectionA">
+                </div>
                 <li>Dynamic onboarding journeys</li>
                 <li>Digital documents and digital signing</li>
                 <li>Integration to external systems such as CRM and document management</li>
@@ -99,6 +104,9 @@ include "../../header.php"
                     <h2>Budgeting</h2>
                     <ul>
                         <li>Advanced dynamic budgeting capability</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Budget for Staff, Expenses and for support from Service Providers</li>
                         <li>Graphical analysis of budgeted spending</li>
                         <li>Proportional spending trend analysis and tracking</li>
@@ -120,6 +128,9 @@ include "../../header.php"
                     <h2>Funding</h2>
                     <ul>
                         <li>Funding can be entered directly into the system by staff, uploaded from a spreadsheet or entered via integration with an external system</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/capabilities/Funding%20Spending%20320x448%20r.jpg" alt="15670 SectionA">
+                        </div>
                         <li>Funding start dates and end dates can be configured</li>
                         <li>Automated reminder notices when funding renewal is due</li>
                         <li>Customers can see funding details</li>
@@ -142,6 +153,9 @@ include "../../header.php"
                     <h2>Spending Management</h2>
                     <ul>
                         <li>Automated analysis of spending on a daily basis</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Customer spending analysis self-service</li>
                         <li>Easy to follow Customer statement</li>
                         <li>Automated issuance of Customer statements to those Customers who want to regularly receive their statement</li>
@@ -171,6 +185,9 @@ include "../../header.php"
                     <h2>Payments Module</h2>
                     <ul>
                         <li>Customer can enter claims for expenses themselves</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability to pay / reimburse the Customer</li>
                         <li>Ability to pay a service provider directly on invoice</li>
                         <li>Ability to setup Service Providers to be selectable from a list of providers</li>
@@ -194,6 +211,9 @@ include "../../header.php"
                     <h2>Workforce Scheduling & Rostering</h2>
                     <ul>
                         <li>Customers can create their own staff schedule and roster</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability to schedule activities and work shifts</li>
                         <li>Ability to add recurring activities and work shifts</li>
                         <li>Ability to invite staff to work shifts</li>
@@ -218,6 +238,9 @@ include "../../header.php"
                     <h2>Audit & Compliance</h2>
                     <ul>
                         <li>Detailed audit trail logging of changes to key data such as timesheets and claims</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability to extract the spending history for an account into an audit report</li>
                         <li>Ability for an auditor to be able to access a specific Customer account in ‘read-only’ to support spending investigations
                         </li>
@@ -236,6 +259,9 @@ include "../../header.php"
                     <h2>Web Application</h2>
                     <ul>
                         <li>Bespoke self service application available via a web application</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/capabilities/Web%20App%20Smart%20Phone%20320x448%20r.jpg" alt="15670 SectionA">
+                        </div>
                         <li>Support for all main internet browsers</li>
                         <li>Microsoft technology supported by the Microsoft Azure Cloud  security
                         </li>
@@ -254,6 +280,9 @@ include "../../header.php"
                     <h2>Integration</h2>
                     <ul>
                         <li>Support for REST API integration</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Support for SFTP File Integration</li>
                         <li>Support for Excel and .CSV File integration</li>
                         <li>Active monitoring of integrations
@@ -273,6 +302,9 @@ include "../../header.php"
                     <h2>Reporting</h2>
                     <ul>
                         <li>In-built suite of reports enabling the extraction of key data (e.g. Audit Report)</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability to extract Customer transaction data from the system for analysis</li>
                         <li>Support for Microsoft Power BI
                         </li>
@@ -291,6 +323,9 @@ include "../../header.php"
                     <h2>Monitoring</h2>
                     <ul>
                         <li>In-built monitoring service</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability to check the status of critical system processes and services in a dedicated dashboard</li>
                         <li>Active monitoring of connected systems and interfaces including automated alerts when interfaces become unstable or stop working</li>
                         <li>Support for Microsoft Azure Cloud monitoring services</li>
@@ -316,6 +351,9 @@ include "../../header.php"
                     <h2>Accessibility</h2>
                     <ul>
                         <li>UI support for Dyslexia</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>UI support for Cursor size changes</li>
                         <li>UI support for colour contrast inversion</li>
                         <li>UI support for dynamic Zoom</li>
@@ -336,6 +374,9 @@ include "../../header.php"
                     <h2>Security</h2>
                     <ul>
                         <li>Identify Server 4 authentication</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Role based access model</li>
                         <li>Microsoft Azure Cloud – Azure Firewall</li>
                         <li>Microsoft Azure Cloud – Azure DDoS Protection</li>
@@ -356,6 +397,9 @@ include "../../header.php"
                     <h2>Authentication</h2>
                     <ul>
                         <li>Identify Server 4 authentication</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Support for single-sign on across self-service applications</li>
                         <li>Support for multi-factor authentication</li>
                         <li>Support for external authentication integration (LDAP, Microsoft Active Directory)</li>
@@ -377,6 +421,9 @@ include "../../header.php"
                     <h2>Smartphone Application</h2>
                     <ul>
                         <li>Native Google Android Smartphone Application</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Native Apple IOS Smartphone Application</li>
                         <li>Support for push notifications</li>
                         <li>Ability to disable functions, modules or applications as required</li>
@@ -399,6 +446,9 @@ include "../../header.php"
                     <h2>Automation</h2>
                     <ul>
                         <li>Automated processing of Timesheets</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/capabilities/Automation%20320x448%20r.jpg" alt="15670 SectionA">
+                        </div>
                         <li>Automated processing of Expenses Claims</li>
                         <li>Automated issuance of Customer spending Statements</li>
                         <li>Automated issuance of Employee Payslips</li>
@@ -407,7 +457,6 @@ include "../../header.php"
                         </li>
                     </ul>
                 </div>
-
             </div>
         </section>
     </div>
@@ -420,6 +469,9 @@ include "../../header.php"
                     <h2>Spending Compliance Module</h2>
                     <ul>
                         <li>Funder specific view of spending compliance</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Aggregation of bank transactions leveraging bank account feeds / integration</li>
                         <li>Summary dashboard for Staff of Customers with details of spending</li>
                         <li>Analysis of spending transactions using predefined rules
@@ -439,6 +491,9 @@ include "../../header.php"
                     <h2>Purchasing Decision Making</h2>
                     <ul>
                         <li>Customers can access an online purchasing support tool to provide details in support of a purchased item</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Customer can enter a proposed purchase item and submit it to clarify if it can be purchased</li>
                         <li>Notes can be added to an Account to detail purchasing exceptions
                         </li>
@@ -457,6 +512,9 @@ include "../../header.php"
                     <h2>Payroll</h2>
                     <ul>
                         <li>Time and attendance self-service for Employers</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/capabilities/Time%20Attendance%20320x448%20r.jpg" alt="15670 SectionA">
+                        </div>
                         <li>Time and attendance self-service for Employees</li>
                         <li>Payroll email inbox can be consumed into a processing queue</li>
                         <li>Customers can enter details for a new Employee including loading key documents</li>
@@ -488,6 +546,9 @@ include "../../header.php"
                     <h2>Direct Payments</h2>
                     <ul>
                         <li>Dynamic tool for creating a direct payments disbursement plan based on budgeted items</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/capabilities/Direct%20Payments%20320x448%20r.jpg" alt="15670 SectionA">
+                        </div>
                         <li>Ability to map budgeted spending to a purpose or outcome</li>
                         <li>Ability to manage actual spending into the direct payments plan to avoid overspending</li>
                         <li>Summary dashboard of direct payments participants for staff that indicates spending status, bank account balance, etc</li>
@@ -511,6 +572,9 @@ include "../../header.php"
                     <h2>Direct Payments Funding Bank Account Management</h2>
                     <ul>
                         <li>Bank account integration to aggregate bank transactions</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Automated analysis of bank transactions to identify irregular spending, transfers and withdrawals using ‘rules’ based evaluation</li>
                         <li>Ability to apply global transaction analysis rules or to customise rules for a specific Customer</li>
                         <li>Automated analysis of bank balance to identify excess balances</li>
@@ -535,6 +599,9 @@ include "../../header.php"
                     <h2>Personal Assistant Finder</h2>
                     <ul>
                         <li>Ability for Customers / Advertiser to setup an account themselves</li>
+                        <div class="image" style="position: absolute; top: 15px; float: right; right: 0px; width: 80px; height: 80px;">
+                            <img src="<?=baseUrl()?>/assets/images/placeholder.png" alt="15670 SectionA">
+                        </div>
                         <li>Ability for Customer / Advertiser to post a job advertisement themselves</li>
                         <li>Ability for Job Seeker to setup an account themselves</li>
                         <li>Ability for Job Seeker to post a profile themselves</li>
