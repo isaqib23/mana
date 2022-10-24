@@ -273,7 +273,7 @@ include "../../header.php"
                         <li>Digital Onboarding Module: Instead of just digital onboarding and personal assistant finder module instead of personal assistant finder</li>
                         <li>Direct Payments Module: End to end management of direct payment disbursements including Customer self-service options</li>
                         <li>Funder Compliance Module: Dedicated Funder view of spending compliance</li>
-                        <li>Personal Assistant Finder: Connect employers with job seekers
+                        <li>Personal Assistant Finder Module: Connect employers with job seekers
                         </li>
                     </ul>
                 </div>

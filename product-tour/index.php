@@ -54,7 +54,7 @@ include "../assets_footer.php"
 <script type="text/javascript">
     $("form").submit(function(e) {
         e.preventDefault();//prevent the form from actually submitting
-        window.location = '<?=baseUrl()?>/customers';
+        window.location = '<?=baseUrl()?>/customers/video_preview.php?video=product_video';
     });
 </script>
 </html>
