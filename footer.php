@@ -1181,7 +1181,7 @@
 
 
 
-                                                <a id="gnf_1347" href="https://www.adobe.com/privacy.html" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Privacy-1">
+                                                <a id="gnf_1347" href="<?=baseUrl()?>/software/privacy/" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Privacy-1">
 
         <span class="feds-navLink-contentWrapper">
             <span class="feds-navLink-content">
@@ -1252,7 +1252,7 @@
 
 
 
-                                                <a id="gnf_1358" href="https://www.adobe.com/legal/terms.html" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Terms_of_Use-2">
+                                                <a id="gnf_1358" href="<?=baseUrl()?>/terms.php" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Terms_of_Use-2">
 
         <span class="feds-navLink-contentWrapper">
             <span class="feds-navLink-content">

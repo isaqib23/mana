@@ -200,21 +200,6 @@ include "../../../header.php"
             <form action="#">
                 <div class="form-row">
                     <div class="input-data">
-                        <label for="">Enquiry Type</label>
-                        <select id="enquiry_type" required>
-                            <option selected="selected" value="" label=" " aria-label="Blank"> </option>
-                            <option value="225000000">Join Manawanui</option>
-                            <option value="225000002">Existing Customer – Query</option>
-                            <option value="343800000">NZQA Training</option>
-                            <option value="343800001">Purchasing Query</option>
-                            <option value="343800002">Employer Protection Package</option>
-                            <option value="343800003">e-Mploy Recruitment / Staff Recruitment</option>
-                            <option value="343800004">Payroll Service</option>
-                            <option value="225000001">Service Feedback</option>
-                            <option value="225000004">Other</option>
-                        </select>
-                    </div>
-                    <div class="input-data hear_about" style="display: none">
                         <label for="">How did you hear about us?</label>
                         <select id="hearAbout">
                             <option selected="selected" value="" label=" " aria-label="Blank"> </option>
@@ -236,24 +221,28 @@ include "../../../header.php"
                             <option value="343800016">Advertising</option>
                         </select>
                     </div>
-                </div>
-                <div class="form-row">
                     <div class="input-data">
                         <label for="">First Name</label>
                         <input type="text" required>
                     </div>
+                </div>
+                <div class="form-row">
                     <div class="input-data">
                         <label for="">Last Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="input-data">
+                        <label for="">Email Address</label>
                         <input type="text" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="input-data">
-                        <label for="">Email Address</label>
+                        <label for="">Mobile</label>
                         <input type="text" required>
                     </div>
-                    <div class="input-data">
-                        <label for="">Mobile</label>
+                    <div class="input-data textarea">
+                        <label for="">Company Name</label>
                         <input type="text" required>
                     </div>
                 </div>
