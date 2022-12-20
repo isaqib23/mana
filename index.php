@@ -13,15 +13,35 @@
 include "header.php"
 ?>
 
+<style>
+    .marquee-container .marquee-text {
+    max-width: 540px;
+    width: 100%;
+    margin-left: 100px;
+    
+}
+.banner-cta-wrapper .text-container {
+    color: #fff;
+    padding: 32px 0;
+    max-width: 650px;
+    margin-bottom: 0;
+    margin-right: 150px;
+}
+.staircase__image {
+    display: block;
+    max-width: 75%;
+    margin-left: 70px;
+}
+</style>
 <main id="layout-wrapper">
     <div class="layers">
         <div class='js-scroll-to-section' id='sectionID-1502' data-scroll-id='sectionID-1502'
-             data-title='My Life My Way transforms self-directed services.'>
+             data-title='My Life My Way transforms self-directed services.' ">
 
             <article class="marquee-wrapper"
                      style="background-color: #8F191F;">
-                <div class="marquee-container">
-                    <section class="marquee-text">
+                <div class="marquee-container" >
+                    <section class="marquee-text" >
                         <h1>My Life My Way transforms self-directed services.</h1>
                         <h2>Deliver measurable results with advanced capabilities that will keep Customers engaged and coming back.</h2>
 
@@ -92,7 +112,7 @@ include "header.php"
                     <div class="logo-container">
 
                         <div class="customer-logo">
-                            <img src="assets/ImageItem/Fujitsu.png"/>
+                            <img src="assets/ImageItem/ManawanuiLogo.jpg"/>
                         </div>
 
 
@@ -100,7 +120,7 @@ include "header.php"
 
                     </div>
 
-                    <a href="<?=baseUrl()?>/customers/">Case Studies</a>
+                    <a href="<?=baseUrl()?>/customers/"  style="    font-size: 22px;font-weight: bold;"> Case Studies</a>
 
                 </div>
             </section>
@@ -253,7 +273,7 @@ include "header.php"
         ">
                     <div class="staircase__image-container">
 
-                        <img src="assets/images/placeholder.png" alt="Interactive Tour Laptop"
+                        <img src="assets/images/WomanAndChild.png" alt="Interactive Tour Laptop"
                              class="staircase__image"/>
 
                     </div>

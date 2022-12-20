@@ -68,7 +68,7 @@ include "../../header.php"
     
         <section data-expanded="false" class="package-column-container column-height-fixed column-height-fixed--mobile">
             <div class="package-heading">
-                <h3>Digital Starter
+                <h3 style="color:darkblue;">Digital Starter
                 </h3>
             </div>
             <div class="package-details package-details--mobile-hidden">
@@ -115,7 +115,7 @@ include "../../header.php"
                         </ul>
                     </div>
                 <div class="package-cta-container">
-                    <a class="cta grey" href="<?=baseUrl()?>" target="_blank">Contact Sales</a>
+                    <a class="cta grey" href="/why-manawanui/services-and-support/support/" target="_blank">Contact Sales</a>
                 </div>
                 
             </section>
@@ -123,7 +123,7 @@ include "../../header.php"
     
         <section data-expanded="false" class="package-column-container column-height-fixed column-height-fixed--mobile">
             <div class="package-heading">
-                <h3>Enhanced</h3>
+                <h3 style="color:darkblue;">Enhanced</h3>
             </div>
             <div class="package-details package-details--mobile-hidden">
                 <p class="package-description">Complete budget  management self-service and advanced payroll digitization
@@ -170,7 +170,7 @@ include "../../header.php"
                         </ul>
                     </div>
                 <div class="package-cta-container">
-                    <a class="cta grey" href="<?=baseUrl()?>" target="_blank">Contact Sales</a>
+                    <a class="cta grey" href="/why-manawanui/services-and-support/support/" target="_blank">Contact Sales</a>
                 </div>
                 
 
@@ -180,7 +180,7 @@ include "../../header.php"
     
         <section data-expanded="false" class="package-column-container column-height-fixed column-height-fixed--mobile">
             <div class="package-heading">
-                <h3>Ultimate</h3>
+                <h3 style="color:darkblue;">Ultimate</h3>
             </div>
             <div class="package-details package-details--mobile-hidden">
                 <p class="package-description">Advanced automation of key processes
@@ -224,7 +224,7 @@ include "../../header.php"
                         </ul>
                     </div>
                 <div class="package-cta-container">
-                    <a class="cta grey" href="<?=baseUrl()?>" target="_blank">Contact Sales</a>
+                    <a class="cta grey" href="/why-manawanui/services-and-support/support/" target="_blank">Contact Sales</a>
                 </div>
                 
 
@@ -234,7 +234,7 @@ include "../../header.php"
     
         <section data-expanded="false" class="package-column-container column-height-fixed column-height-fixed--mobile">
             <div class="package-heading">
-                <h3>Optional Add-Ons
+                <h3 style="color:darkblue;">Optional Add-Ons
                 </h3>
             </div>
             <div class="package-details package-details--mobile-hidden">
@@ -279,7 +279,7 @@ include "../../header.php"
                 </div>
 
                 <div class="package-cta-container">
-                    <a class="cta grey" href="<?=baseUrl()?>" target="_blank">Contact Sales</a>
+                    <a class="cta grey" href="/why-manawanui/services-and-support/support/" target="_blank">Contact Sales</a>
                 </div>
 
 

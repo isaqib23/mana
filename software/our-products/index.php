@@ -136,7 +136,7 @@ include "../../header.php"
                 </li>
                 <li>Automated spending management processes that proactively monitor spending to identify where someone needs help and trigger communications and escalations
                 </li>
-                <li>Seamless management of personal contributions from a individuals (i.e. private funding</li>
+                <li>Seamless management of personal contributions from individuals (i.e. private funding)</li>
             </ul>
 
             
@@ -233,7 +233,7 @@ include "../../header.php"
                 <div class="content vam">
                     <h2>Personal Assistant Finder<br />
                     </h2>
-                    <p>An easy to navigate and search Personal Assistant Finder doe job seekers and job advertisers.
+                    <p>An easy to navigate and search Personal Assistant Finder for job seekers and job advertisers.
                     </</p>
                     <ul>
                         <li>Can easily and quickly post job adverts for support staff with example templates to help

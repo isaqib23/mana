@@ -104,7 +104,7 @@
                                                             <span class="feds-navLink-contentWrapper">
                                                             <span class="feds-navLink-content">
                                                             <span class="feds-navLink-text">
-                                                            <span class="feds-navLink-text--default">My Life My Way</span>
+                                                            <span class="feds-navLink-text--default" style="font-size:20px">My Life My Way</span>
                                                             </span>
                                                             </span>
                                                             </span>
